@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<link rel = "stylesheet" href = "materialize/css/materialize.min.css" />
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="form.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	</head>
+	<body>
+        <!--navbar-->
+		<nav class="#212121 grey darken-4">
+			<div class="nav-container">
+				<div class="nav-wrapper ">
+					<a href="index.html" class="brand-logo" ><img height="62px" width="80px" src="http://is4.mzstatic.com/image/thumb/Music62/v4/9f/23/5f/9f235f94-6701-f746-ee6c-5338e33a15b0/source/1200x630bb.jpg" height="100"></a>
+					<ul id="nav-mobile" class="right hide-on-med-and-down">
+						<li><a href="index.html">Home</a></li>
+						<li><a class="modal-trigger" href="#ologinmodal">Officer Login</a></li>
+						<li><a class="modal-trigger" href="#modal1" >About</a></li>
+						<li><a class="modal-trigger" href="#modal2">Contact us</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="parallax-container">
+    		<div class="parallax" style="position:absolute">
+    				<img src="http://cdn.pcwallart.com/images/battlefield-hardline-wallpaper-1920x1080-wallpaper-1.jpg" style="display: block;">
+    		</div>
+			<div>
+				<br><br><br><br><br><br><br><br><center>
+				<div class="container"><div class="container"><div class="container">
+				<div class="card-panel black white-text"><h5><strong>Online Crime Reporting System</strong></h5></div></div></div></div>
+			</center>
+			</div>
+		</div>
+
+		<!--main content-->
+        <ul id="tabs-swipe-demo" class="tabs" >
+            <li class="tab col s3"><a class="active" href="#test-swipe-1">Sign Up</a></li>
+            <li class="tab col s3"><a href="#test-swipe-2">Check Status</a></li>
+        </ul>
+        <div id="test-swipe-1" class="col s12 #212121 grey darken-3 " >
+			<div class="row">
+				<center>
+				<div class="col s12 m6 offset-m3">
+					<br><br>
+					<div class="card #263238 blue-grey darken-4 hoverable">
+						<div class="card-image">
+							<img style="height:300px" src="https://wallpaperscraft.com/image/keyboard_laptop_macro_73432_3840x2160.jpg">
+							<span class="card-title">Go ahead and tell us your grievances...</span>
+						</div>
+						<div class="card-content white-text">
+							<p style="font-family: 'Bradley Hand ITC'">Our app lets you fill in all your grievances without the hassle of
+								making a complaint over phone, or standing in long queues at the police station.</p>
+						</div>
+						<div class="card-action">
+							<a class="modal-trigger" href="complainant.html">proceed</a>
+						</div>
+					</div>
+					<br><br>
+				</div>
+				</center>
+			</div>
+		</div>
+        <div id="test-swipe-2" class="col s12 #78909c blue-grey lighten-1">
+					<div class="row">
+						<center>
+						<div class="col s12 m6 offset-m3">
+							<br><br>
+							<div class="card #263238 blue-grey darken-4 hoverable">
+								<div class="card-image">
+									<img style="height:300px" src="images/status.png">
+									<span class="card-title">Check the status of your complaint</span>
+								</div>
+								<div class="card-content white-text">
+									<p style="font-family: 'Bradley Hand ITC'">You can check the status of your complaint, anytime! anywhere!</p>
+								</div>
+								<div class="card-action">
+									<a class="modal-trigger" href="statuslogin.html">proceed</a>
+								</div>
+							</div>
+							<br><br>
+						</div>
+						</center>
+		</div>
+
+		<!--signupmodal-->
+<!--<div id="signupmodal" class="modal">
+		<div class="modal-content">
+				<center>
+			<h4>Create an account</h4>
+			<form class="form" method="post" action="signup.php">
+				<div class="content">
+					<div class="container">
+					<div class="input-group">
+						<span class="input-group-addon">
+
+								<i class="material-icons">email</i>
+							</span>
+								<input type="text" name="email" class="form-control" placeholder="                  Email ID..." required>
+							</div>
+
+					<div class="row">
+						<div class="col s6">
+								<i class="material-icons">face</i>
+						<input type="text" name="fname" class="form-control" placeholder="                  Firstname..." required>
+						</div>
+						<div class="col s6">
+								<i class="material-icons">face</i>
+						<input type="text" name="lname" class="form-control" placeholder="                  Lastname..." required>
+					</div>
+				</div>
+							<i class="material-icons">security</i>
+						<input type="password" name="pass" class="form-control" placeholder="                  Password..." required>
+
+						</div>
+						<center>
+							<div class="row">
+								<button type="button" class="btn red" data-dismiss="modal">Cancel</button>
+								<button type="submit" value="submit" name="submit" class="btn green">Submit</button>
+							</div>
+
+						</center>
+					<div class="row">
+						<div class="container">
+							Already have an account ? <a class="modal-trigger" href="#cloginmodal">Login</a>
+						</div>
+					</div>
+					</div>
+						</form>
+				</div>
+			</div>
+		-->
+
+
+
+		<!--modal-->
+		<div id="ologinmodal" class="modal">
+			<div class="modal-content">
+					<center>
+				<h4>Officer Login</h4>
+				<form class="form" method="" action="">
+					<div class="content">
+						<div class="container">
+						<div class="input-group">
+							<span class="input-group-addon">
+								<div class="row">
+						<div class="col s1"><i class="material-icons">face</i><div>
+						</span>
+							<div class="col s11"><input type="text" class="form-control" placeholder="UserName..."></div>
+						</div>
+					</div>
+						<div class="input-group">
+							<span class="input-group-addon">
+								<div class="row">
+				<div class="col s1"><i class="material-icons">security</i></div>
+			</span>
+							<div class="col s11"><input type="password" class="form-control" placeholder="Password..."></div>
+						</div>
+					</div>
+					</div>
+				</div>
+					<div class="footer">
+						<button type="button" class="btn red" data-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn green">Submit</button>
+					</div>
+				</center>
+				</form>
+
+			</div>
+		</div>
+		<!--<div id="cloginmodal" class="modal">
+				<div class="modal-content">
+						<center>
+					<h4>Complainant Login</h4>
+					<form class="form" method="" action="">
+						<div class="content">
+							<div class="container">
+							<div class="input-group">
+								<span class="input-group-addon">
+							<i class="material-icons">face</i>
+							</span>
+								<input type="text" class="form-control" placeholder="                  UserName...">
+							</div>
+
+							<div class="input-group">
+								<span class="input-group-addon">
+					<i class="material-icons">security</i>
+				</span>
+								<input type="password" class="form-control" placeholder="                  Password...">
+							</div>
+						</div>
+					</div>
+						<div class="footer">
+							<button type="button" class="btn red" data-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn green"><a class="white-text+" href="form.html">Submit</a></button>
+						</div>
+					</center>
+					</form>
+
+				</div>
+			</div>
+		-->
+		<div id="modal1" class="modal">
+			<div class="modal-content">
+				<h4>Straw Hat Developers</h4>
+				<ul style="text-align: justify">
+					<li>Ashutosh Mahesh Pednekar 		-		15BCE0897</li>
+					<li>Shivam Gupta 		-		15BCE2012</li>
+					<li>Yash Aggrawal 		-		15BCE0489</li>
+				</ul>
+			</div>
+		</div>
+		<div id="modal2" class="modal">
+			<div class="modal-content ">
+				<h4>Contact Us</h4>
+				<ul>
+					<li><b>Ashutosh</b><p>			Email: ashupednekar49@gmail.com</p></li>
+					<li><b>Shivam</b><p>			Email: shivamthedude5@gmail.com</p></li>
+					<li><b>Yash</b><p>			Email: yashaggrawal@gmail.com</p></li>
+				</ul>
+			</div>
+		</div>
+        <!--footer-->
+		<footer class="page-footer #212121 grey darken-4">
+			<div class="container">
+				<div class="row">
+					<div class="col l6 s12">
+						<h5 class="white-text">OCRS</h5>
+						<p class="grey-text text-lighten-4">A one stop solution for all your grievances</p>
+					</div>
+					<div class="col l4 offset-l2 s12">
+						<h5 class="white-text">Quick Access</h5>
+						<ul>
+							<li><a class="grey-text text-lighten-3" href="complainant.html">New FIR report</a></li>
+							<li><a class="grey-text text-lighten-3 modal-trigger" href="#">Check Status</a></li>
+							<li><a class="grey-text text-lighten-3 modal-trigger" href="#">Report Eyewitness</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright black">
+				<div class="container">
+					© 2017 Straw Hat Developers
+					<a class="grey-text text-lighten-4 modal-trigger" style="float:right;padding-right: 215px" href="#modal2">About us</a>
+				</div>
+			</div>
+		</footer>
+		<style>
+			.carousel .carousel-item{
+				width:100%;
+			}
+		</style>
+        <!--Scripts-->
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="materialize/js/materialize.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('.parallax').parallax();
+			$('.modal').modal();
+			$(document).ready(function(){
+				  $('ul.tabs').tabs({
+					  //swipeable:true,
+					  responsiveThreshold:1920
+				  });
+			  });
+        });
+		</script>
+
+	--><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js">
+</script>
+	</body>
+</html>
